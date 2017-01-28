@@ -1,0 +1,283 @@
+  body{
+    background: #212121;
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+  }
+
+  .container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    background: #212121;
+
+  }
+
+  .btnTimer{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background: #e74c3c;
+    color: white;
+    font-size: 20px;
+    outline-width: 0;
+    border: none;
+    border-radius: 0;
+  }
+  .btnTimer:hover{
+    background: #c0392b;
+    color: white;
+    font-size: 20px;
+  }
+  .btnTimer:active{
+    background: #c0392b;
+  }
+  .btnTimer:focus{
+    background: #c0392b;
+    color: white;
+    border: none;
+    outline-width: 0;
+  }
+  input{
+    width: 60px;
+    height: 49px;
+    text-align: center;
+    background: white;
+    color: black;
+    border: none;
+  }
+  input:focus{
+    outline-width: 0;
+  }
+
+
+  .main span{
+    margin: 10px;
+  }
+  .container div{
+    margin: 30px;
+  }
+
+
+  .set{
+
+    width: 160px;
+    height: 60px;
+    background:#7f8c8d;
+    color: #ecf0f1;
+    font-size: 15px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all linear 0.1s;
+  }
+  .set:hover , .set:focus , .set:active {
+    color: #ecf0f1;
+    outline: 0 none;
+
+  }
+  .setAlarm{
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  .setAlarm p{
+    margin-left: -30px;
+  }
+  .hiddens{
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+  }
+
+
+
+
+/* RadioButtons start */
+  .control-group {
+	display: inline-block;
+	width: 200px;
+	height: 210px;
+	margin: 10px;
+	padding: 30px;
+	text-align: left;
+	vertical-align: top;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.control {
+	font-size: 18px;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	cursor: pointer;
+}
+
+.control input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.control__indicator {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #e6e6e6;
+}
+
+.control--radio .control__indicator {
+	border-radius: 50%;
+}
+
+/* Hover and focus states */
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+	background: #ccc;
+}
+
+/* Checked state */
+.control input:checked ~ .control__indicator {
+	background: #c0392b;
+}
+
+/* Hover state whilst checked */
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+	background: #c0392b;
+}
+
+/* Disabled state */
+.control input:disabled ~ .control__indicator {
+	pointer-events: none;
+	opacity: .6;
+	background: #e6e6e6;
+}
+
+/* Check mark */
+.control__indicator:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.control input:checked ~ .control__indicator:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox .control__indicator:after {
+	top: 4px;
+	left: 8px;
+	width: 3px;
+	height: 8px;
+	transform: rotate(45deg);
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+}
+
+/* Disabled tick colour */
+.control--checkbox input:disabled ~ .control__indicator:after {
+	border-color: #c0392b;
+}
+
+/* Radio button inner circle */
+.control--radio .control__indicator:after {
+	top: 7px;
+	left: 7px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #fff;
+}
+
+/* Disabled circle colour */
+.control--radio input:disabled ~ .control__indicator:after {
+	background: #7b7b7b;
+}
+
+.radioGroup1 label , .radioGroup2 label{
+  display: inline-block;;
+  margin-bottom: 40px;
+  margin-left: 7px;
+}
+.radioGroup1 p {
+  margin-left: 10px;
+}
+
+/*header*/
+
+.logo h1 {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 70px;
+  color: #c0392b;
+  text-align: center;
+}
+.logo span{
+  margin-left: 380px;
+}
+.logo h1:hover{
+  color:white;
+  cursor: default;
+}
+.stopBtn1{
+  width: 160px;
+  background: #c0392b;
+  color: white;
+  margin-bottom: 30px;
+}
+.stopBtn1:hover, .stopBtn1:active, .stopBtn1:focus{
+  outline: 0 none;
+  color: white;
+}
+
+.hideRb{
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+.remain , .ctime{
+  color: #c0392b;
+}
+
+.alarm , .options {
+  display: inline-block;
+  vertical-align: top;
+}
+.alarm , .setAlarm{
+  display: inline-block;
+  vertical-align: middle;
+}
+.setAlarm{
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+}
+.myfooter{
+
+  bottom:0;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Shadows Into Light', cursive;
+
+}
+.hearticon{
+  color:  #e74c3c;
+}
+
+.music{
+  float: left;
+}
+.love{
+  float: right;
+}
+.btn-success{
+  background: #e74c3c;
+  border: none;
+}
+.btn-success:hover , .btn-success:active:active  , .btn-success:focus{
+  background: #7f8c8d;
+  color: #ecf0f1;
+}

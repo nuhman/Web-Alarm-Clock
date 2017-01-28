@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Wake Me Up | The Productivity Hack
+    </title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Shadows+Into+Light" rel="stylesheet">
+
+</head>
+
+
+
+
+<body>
+    <div class="container">
+        <header class="logo">
+            <h1><strong> Wake Me Up</strong></h1>
+            <span>-the productivity hack-</span>
+        </header>
+    </div>
+    <div class="container">
+        <div class="options">
+            <div class="radioGroup1">
+                <stong>
+                    <p style="color:#c0392b;">Select the time format: </p>
+                    </strong>
+                    <label class="control control--radio">24
+  		<input type="radio" name="radio" class="radio1" checked="checked" value="24"/>
+  		<div class="control__indicator"></div>
+  	 </label>
+
+                    <label class="control control--radio">12
+  		<input class="radio2" type="radio" name="radio" value="12"/>
+  		<div class="control__indicator"></div>
+	   </label>
+
+            </div>
+
+            <div class="radioGroup2 hideRb">
+                <label class="control control--radio">AM
+    <input type="radio" name="radio2" value = "AM" checked="checked"/>
+    <div class="control__indicator"></div>
+   </label>
+
+                <label class="control control--radio">PM
+    <input type="radio" name="radio2" value="PM"/>
+    <div class="control__indicator"></div>
+   </label>
+
+            </div>
+        </div>
+        <div class="alarm">
+            <div class="main"><button class="hbtn2 btnTimer btn btn-default"> <span class="glyphicon glyphicon-chevron-down"></span> </button>
+                <!-- --><input type="text" class="htime" value="00"><button class="hbtn btnTimer btn btn-default"><span class="glyphicon glyphicon-chevron-up"></span> </button><span><strong>HH</strong></span></div>
+            <div class="main"><button class="mbtn2 btnTimer btn btn-default">  <span class="glyphicon glyphicon-chevron-down"></span> </button><input type="text" class="mtime" value="00"><button class="mbtn btnTimer btn btn-default"> <span class="glyphicon glyphicon-chevron-up"></span> </button><span><strong>MM</strong></span></div>
+
+            <div class="setBtn"><button class="set btn">SET ALARM</button></div>
+            <div class="stopBtn hiddens"><button class="stopBtn1 btn">STOP</button>
+
+            </div>
+        </div>
+        <div class="stopBtn hiddens setAlarm">
+            <p class="ctime"></p>
+            <p class="remain"></p>
+        </div>
+
+
+
+    </div>
+    <hr>
+    <footer class="myfooter">
+        <div class="music">
+            <button class="btn btn-success tone">Bells</button>
+            <button class="btn btn-success tone">Scary</button>
+            <button class="btn btn-success tone">Smooth</button>
+            <span>current alarm tone : <span class="chosen">Bells</span></span>
+        </div>
+        <div class="love">
+            <p> Made with <span class="glyphicon glyphicon-heart hearticon"></span> by Nuhman</p>
+        </div>
+    </footer>
+
+
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <script src="res/script.js"></script>
+
+</body>
+
+</html>

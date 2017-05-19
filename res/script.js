@@ -28,11 +28,11 @@
     var extraflag = 1;
     var reHr = 0;
     var reMin = 0;
-    var filename = 'Bells.mp3'; //here give the name of the alarm tone
+    var filename = 'res/Bells.mp3'; //here give the name of the alarm tone
     //get the alarm tone
     $('.tone').click(function() {
         filename = $(this).text();
-        audioElement.setAttribute('src', filename + '.mp3');
+        audioElement.setAttribute('src', 'res/'+filename + '.mp3');
         $('.chosen').text(filename);
     });
 

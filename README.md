@@ -2,6 +2,8 @@
   
 ### Web-Alarm-Clock is well, a simple web application that offers a delightful experience for all your timing needs.  
   
+ Visit the [site](https://nuhman.github.io/Web-Alarm-Clock/).  
+   
  ```
  Copyright 2017
 

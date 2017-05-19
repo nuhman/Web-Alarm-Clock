@@ -1,5 +1,5 @@
 # Web-Alarm-Clock  
-==================  
+  
 ### Web-Alarm-Clock is well, a simple web application that offers a delightful experience for all your timing needs.  
   
  ```
@@ -17,5 +17,5 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
-See <http://www.gnu.org/licenses/>.
+See [http://www.gnu.org/licenses](http://www.gnu.org/licenses).
  ```
